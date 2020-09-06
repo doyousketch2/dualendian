@@ -36,7 +36,7 @@ local function endian( num )
 
     if #reversed % 2 ~= 0 then  reversed = '0' ..reversed  end  --  padding
     return reversed
-end  --  hex()
+end  --  endian()
 
 
 --==================================================================================================
@@ -79,7 +79,7 @@ big_endian_dir .labelcolor  = 45
 --==================================================================================================
 --  callbacks  -------------------------------------------------------------------------------------
 
-function redraw()
+local function redraw()
     decimal_input :redraw()
     little_endian_input :redraw()
     big_endian_input :redraw()
