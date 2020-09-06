@@ -48,7 +48,6 @@ local alternate_decimal  = fltk .Input( 80,  20,  200,  25,  'Reversed' )
 alternate_decimal .type  = 'FL_NORMAL_OUTPUT'
 alternate_decimal .labelcolor  = 39
 
-
 local decimal_input  = fltk .Input( 80,  50,  w_width -100,  36,  'Decimal' )
 decimal_input .textsize  = 25
 decimal_input .labelcolor  = 136
