@@ -12,6 +12,10 @@ https://luarocks.org/modules/siffiejoe/fltk4lua
 
 ---
 
+Info:
+
+https://en.wikipedia.org/wiki/Hexadecimal
+
 https://en.wikipedia.org/wiki/Endianness  
 
 https://en.wikipedia.org/wiki/Bit_numbering  
